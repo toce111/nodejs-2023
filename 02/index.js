@@ -127,3 +127,7 @@ if (vlade.ocenka > trajche.ocenka) {
     `uchenik 1 ${vlade.ime} ima isto znaenje kako i uchenik 2 ${trajche.ime}.`
   );
 }
+
+vlade.ocenka > trajche.ocenka ?
+    console.log("asd") : vlade.ocenka < trajche.ocenka ?
+        console.log("asd1") : console.log("asd2")
