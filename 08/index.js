@@ -5,8 +5,6 @@ const app = express();
 
 app.use(express.json());
 
-
-
 app.get('/', handlers.home);
 app.post('/home', handlers.home_post);
 app.post('/games', handlers.games);
